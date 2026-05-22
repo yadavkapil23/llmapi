@@ -95,7 +95,7 @@ PRs that add any of these are very welcome. See [Contributing](#contributing).
 **Prerequisites:** Node.js 20+, npm.
 
 ```bash
-git clone https://github.com/tashfeenahmed/freellmapi.git
+git clone https://github.com/yadavkapil23/freellmapi.git
 cd freellmapi
 npm install
 
