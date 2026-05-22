@@ -15,8 +15,9 @@ services:
       - key: PORT
         value: 3001
       - key: DATABASE_PATH
-        value: /app/data/freeapi.db
+        scope: run
+        value: /var/data/freeapi.db
     disk:
       name: sqlite-data
-      mountPath: /app/data
+      mountPath: /var/data
       sizeGB: 1
